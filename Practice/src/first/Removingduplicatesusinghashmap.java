@@ -1,4 +1,4 @@
-package thirthyfirstdec;
+package first;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package thirthyfirstdec;
+package first;
 
 public class SwapwithoutTemp {
 	public static void main(String args[]) { 
