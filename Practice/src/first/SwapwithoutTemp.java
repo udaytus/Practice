@@ -1,11 +1,24 @@
 package first;
 
 public class SwapwithoutTemp {
+	
+	static void swap(int a, int b) {
+		a= a+b;
+		b=a-b;
+		a=a-b;
+		System.out.printf("After swapping, 'a': %d, 'b': %d %n", a, b);
+		
+	}
+	
+	
+	
+	
+	
 	public static void main(String args[]) { 
 	int a = 10;
      int b = 20;
 
-     // one way using arithmetic operator e.g. + or -
+  /*   // one way using arithmetic operator e.g. + or -
      // won't work if sum overflows
      System.out.println("One way to swap two numbers without temp variable");
      System.out.printf("Before swap 'a': %d, 'b': %d %n", a, b);
@@ -24,6 +37,9 @@ public class SwapwithoutTemp {
      x = x ^ y;
 
      System.out.printf("After swapping, 'x': %d, 'y': %d %n", x, y);
+     */
+     swap(a,b);
+     
 
  }
 }
