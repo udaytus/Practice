@@ -1,3 +1,6 @@
 /target/
 *.class
 /src/test/
+/.settings/
+/bin/
+/.*/
