@@ -23,8 +23,8 @@ public class LinkedList {
 	          tail = node;
 	      }	  
 	  public static class Node{
-	        private Node next;
-	        private String data;
+	        Node next;
+	        String data;
 
 	        public Node(String data){
 	            this.data = data;
