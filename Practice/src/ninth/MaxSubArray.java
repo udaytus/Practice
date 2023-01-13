@@ -1,7 +1,7 @@
 package ninth;
 
 public class MaxSubArray {
-
+//Kadane Algo
 	private static void maxSubArray(int[] input) {
 		int localMax = 0;
 		int maxSum = Integer.MIN_VALUE;
